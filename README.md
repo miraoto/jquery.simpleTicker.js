@@ -6,16 +6,13 @@ Simple ticker plugin using jQuery
 How to use
 ---------------------------------------------------------------------
 1. Described jquery.simapleTicker.css and jquery.simpleTicker.css as follows :
-<pre>
-<code>
+
 <link href="/jquery.simpleTicker/jquery.simpleTicker.css" rel="stylesheet">
 <script src="/jquery.simpleTicker/jquery.simpleTicker.js"></script>
-</code>
-</pre>
+    
 
 2. Described target list.
-<pre>
-<code>
+    
 <div id="ticker" class="ticker">
 <ul>
 <li>testestest1</li>
@@ -25,19 +22,15 @@ How to use
 <li>testestest5</li>
 </ul>
 </div>
-</code>
-</pre>
-
+    
 3. Described javascript code as follows
-<pre>
-<code>
+    
 <script>
 $(function(){
   $.simpleTicker($("#ticker"));
 });
 </script>
-</code>
-</pre>
+    
 
 Related information
 ----------------------------------------------------------------------
