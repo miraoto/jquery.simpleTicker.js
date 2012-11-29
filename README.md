@@ -7,30 +7,36 @@ How to use
 ---------------------------------------------------------------------
 1. Described jquery.simapleTicker.css and jquery.simpleTicker.css as follows :
 
-<link href="/jquery.simpleTicker/jquery.simpleTicker.css" rel="stylesheet">
-<script src="/jquery.simpleTicker/jquery.simpleTicker.js"></script>
+    
+    <pre>
+    <link href="/jquery.simpleTicker/jquery.simpleTicker.css" rel="stylesheet">
+    <script src="/jquery.simpleTicker/jquery.simpleTicker.js"></script>
+    </pre>
     
 
 2. Described target list.
-    
-<div id="ticker" class="ticker">
-<ul>
-<li>testestest1</li>
-<li>testestest2</li>
-<li>testestest3</li>
-<li>testestest4</li>
-<li>testestest5</li>
-</ul>
-</div>
-    
+
+    <pre>
+    <div id="ticker" class="ticker">
+    <ul>
+    <li>testestest1</li>
+    <li>testestest2</li>
+    <li>testestest3</li>
+    <li>testestest4</li>
+    <li>testestest5</li>
+    </ul>
+    </div>
+    </pre>
+
 3. Described javascript code as follows
     
-<script>
-$(function(){
-  $.simpleTicker($("#ticker"));
-});
-</script>
-    
+    <pre>
+    <script>
+    $(function(){
+      $.simpleTicker($("#ticker"));
+    });
+    </script>
+    </pre>    
 
 Related information
 ----------------------------------------------------------------------
