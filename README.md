@@ -7,16 +7,12 @@ How to use
 ---------------------------------------------------------------------
 1. Described jquery.simapleTicker.css and jquery.simpleTicker.css as follows :
 
-    
-     <pre>
-     <link href="/jquery.simpleTicker/jquery.simpleTicker.css" rel="stylesheet">
-     <script src="/jquery.simpleTicker/jquery.simpleTicker.js"></script>
-     </pre>
-    
+    <link href="/jquery.simpleTicker/jquery.simpleTicker.css" rel="stylesheet">
+    <script src="/jquery.simpleTicker/jquery.simpleTicker.js"></script>
+
 
 2. Described target list.
 
-    <pre>
     <div id="ticker" class="ticker">
     <ul>
     <li>testestest1</li>
@@ -26,17 +22,17 @@ How to use
     <li>testestest5</li>
     </ul>
     </div>
-    </pre>
+
 
 3. Described javascript code as follows
-    
-    <pre>
+
     <script>
     $(function(){
       $.simpleTicker($("#ticker"));
     });
     </script>
     </pre>    
+
 
 Related information
 ----------------------------------------------------------------------
