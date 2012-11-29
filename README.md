@@ -8,10 +8,10 @@ How to use
 1. Described jquery.simapleTicker.css and jquery.simpleTicker.css as follows :
 
     
-    <pre>
-    <link href="/jquery.simpleTicker/jquery.simpleTicker.css" rel="stylesheet">
-    <script src="/jquery.simpleTicker/jquery.simpleTicker.js"></script>
-    </pre>
+     <pre>
+     <link href="/jquery.simpleTicker/jquery.simpleTicker.css" rel="stylesheet">
+     <script src="/jquery.simpleTicker/jquery.simpleTicker.js"></script>
+     </pre>
     
 
 2. Described target list.
