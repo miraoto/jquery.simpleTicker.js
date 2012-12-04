@@ -36,8 +36,8 @@ How to use
 
 Related information
 ----------------------------------------------------------------------
--[簡単なjquery tickerプラグインを作ってみた。 - ミラボ](http://log.miraoto.com/2012/12/708/)
--[jQueryを利用した簡単なニュースティッカー - サンプルとか](http://sample.miraoto.com/detail/20/)
+- [簡単なjquery tickerプラグインを作ってみた。 - ミラボ](http://log.miraoto.com/2012/12/708/)
+- [jQueryを利用した簡単なニュースティッカー - サンプルとか](http://sample.miraoto.com/detail/20/)
 
 License
 ----------------------------------------------------------------------
