@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>jQuery.simpleTicker.js Demo</title>
+<link href="/jquery.simpleTicker/jquery.simpleTicker.css" rel="stylesheet">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="/jquery.simpleTicker/jquery.simpleTicker.js"></script>
+<script>
+$(function(){
+  $.simpleTicker($("#ticker-fade"),{'effectType':'fade'});
+  $.simpleTicker($("#ticker-roll"),{'effectType':'roll'});
+  $.simpleTicker($("#ticker-slide"),{'effectType':'slide'});
+});
+</script>
+<style>
+div.ticker{
+  margin:10px auto;
+}
+div.ticker ul{
+  margin:auto;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>jQuery.simpleTicker.js Demo</h1>
+</header>
+
+<div id="ticker-fade" class="ticker">
+<ul>
+<li>パターン１　テスト１</li>
+<li>パターン１　テスト２</li>
+<li>パターン１　テスト３</li>
+<li>パターン１　テスト４</li>
+<li>パターン１　テスト５</li>
+</ul>
+</div><!--/#ticker -->
+
+
+<div id="ticker-roll" class="ticker">
+<ul>
+<li>パターン２　テスト１</li>
+<li>パターン２　テスト２</li>
+<li>パターン２　テスト３</li>
+<li>パターン２　テスト４</li>
+<li>パターン２　テスト５</li>
+</ul>
+</div><!--/#ticker -->
+
+<div id="ticker-slide" class="ticker">
+<ul>
+<li>パターン２　テスト１</li>
+<li>パターン２　テスト２</li>
+<li>パターン２　テスト３</li>
+<li>パターン２　テスト４</li>
+<li>パターン２　テスト５</li>
+</ul>
+</div><!--/#ticker -->
+
+<footer>
+</footer>
+
+</body>
+</html>
