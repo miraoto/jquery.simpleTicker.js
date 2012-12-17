@@ -5,14 +5,14 @@ Simple ticker plugin using jQuery
 
 How to use
 ---------------------------------------------------------------------
-1. Described jquery.simapleTicker.css and jquery.simpleTicker.css as follows :
+1.Described jquery.simapleTicker.css and jquery.simpleTicker.css as follows :
 
 ``` html
 <link href="/jquery.simpleTicker/jquery.simpleTicker.css" rel="stylesheet">
 <script src="/jquery.simpleTicker/jquery.simpleTicker.js"></script>
 ```
 
-2. Described target list.
+2.Described target list.
 
 ``` html
 <div id="ticker" class="ticker">
@@ -26,7 +26,7 @@ How to use
 </div>
 ```
 
-3. Described javascript code as follows
+3.Described javascript code as follows
 
 ``` html
 <script>
