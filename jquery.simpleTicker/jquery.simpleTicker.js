@@ -75,18 +75,20 @@
       param.initList.css(param.effect.init.css)
                     .animate(param.effect.init.animate,plugin.settings.speed,plugin.settings.easing)
                     .addClass(param.tickerHook);
-      setInterval(function(){
-        element.find('.' + param.tickerHook)
-               .animate(param.effect.start.animate,plugin.settings.speed,plugin.settings.easing)
-               .next()
-               .css(param.effect.next.css)
-               .animate(param.effect.next.animate,plugin.settings.speed,plugin.settings.easing)
-               .addClass(param.tickerHook)
-               .end()
-               .appendTo(param.ul)
-               .css(param.effect.end.css)
-               .removeClass(param.tickerHook);
-      },plugin.settings.delay);
+      if (element.find(param.li).length > 1) {
+        setInterval(function(){
+          element.find('.' + param.tickerHook)
+                 .animate(param.effect.start.animate,plugin.settings.speed,plugin.settings.easing)
+                 .next()
+                 .css(param.effect.next.css)
+                 .animate(param.effect.next.animate,plugin.settings.speed,plugin.settings.easing)
+                 .addClass(param.tickerHook)
+                 .end()
+                 .appendTo(param.ul)
+                 .css(param.effect.end.css)
+                 .removeClass(param.tickerHook);
+        },plugin.settings.delay);
+      }
     }
 
     plugin.effect.fade = function() {

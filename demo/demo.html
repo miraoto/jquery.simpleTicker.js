@@ -3,14 +3,15 @@
 <head>
 <meta charset="utf-8">
 <title>jQuery.simpleTicker.js Demo</title>
-<link href="/jquery.simpleTicker/jquery.simpleTicker.css" rel="stylesheet">
+<link href="/jquery.simpleTicker.js/jquery.simpleTicker/jquery.simpleTicker.css" rel="stylesheet">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="/jquery.simpleTicker/jquery.simpleTicker.js"></script>
+<script src="/jquery.simpleTicker.js/jquery.simpleTicker/jquery.simpleTicker.js"></script>
 <script>
 $(function(){
   $.simpleTicker($("#ticker-fade"),{'effectType':'fade'});
   $.simpleTicker($("#ticker-roll"),{'effectType':'roll'});
   $.simpleTicker($("#ticker-slide"),{'effectType':'slide'});
+  $.simpleTicker($("#ticker-one-item"),{'effectType':'fade'});
 });
 </script>
 <style>
@@ -28,6 +29,7 @@ div.ticker ul{
 <h1>jQuery.simpleTicker.js Demo</h1>
 </header>
 
+<h2>fade pattern</h2>
 <div id="ticker-fade" class="ticker">
 <ul>
 <li>パターン１　テスト１</li>
@@ -38,7 +40,7 @@ div.ticker ul{
 </ul>
 </div><!--/#ticker -->
 
-
+<h2>roll pattern</h2>
 <div id="ticker-roll" class="ticker">
 <ul>
 <li>パターン２　テスト１</li>
@@ -49,6 +51,7 @@ div.ticker ul{
 </ul>
 </div><!--/#ticker -->
 
+<h2>slide pattern</h2>
 <div id="ticker-slide" class="ticker">
 <ul>
 <li>パターン２　テスト１</li>
@@ -58,6 +61,14 @@ div.ticker ul{
 <li>パターン２　テスト５</li>
 </ul>
 </div><!--/#ticker -->
+
+<h2>one item case</h2>
+<div id="ticker-one-item" class="ticker">
+<ul>
+<li>リストが1件しかない場合</li>
+</ul>
+</div><!--/#ticker -->
+
 
 <footer>
 </footer>
