@@ -19,13 +19,13 @@
  * @desc default setting
  */
 (function($) {
-  $.simpleTicker =function(element, options) {
+  $.simpleTicker =function(elem, options) {
     var defaults = {
       speed : 1000,
       delay : 3000,
       easing : 'swing',
       effectType : 'slide'
-    }
+    };
 
     var param = {
       'ul' : '',
@@ -35,13 +35,13 @@
       'liHeight' : '',
       'tickerHook' : 'tickerHook',
       'effect' : {}
-    }
+    };
 
     var plugin = this;
-        plugin.settings = {}
+        plugin.settings = {};
 
-    var $element = $(element),
-        element = element;
+    var $element = $(elem),
+        element = elem;
 
     plugin.init = function() {
       plugin.settings = $.extend({}, defaults, options);
@@ -67,7 +67,7 @@
           break;
       }
       plugin.effect.exec();
-    }
+    };
 
     plugin.effect = {};
 
@@ -89,7 +89,7 @@
                  .removeClass(param.tickerHook);
         },plugin.settings.delay);
       }
-    }
+    };
 
     plugin.effect.fade = function() {
       param.effect = {
@@ -107,8 +107,8 @@
         'end' : {
           'css' : {display:'none',zIndex:'98'}
         }
-      }
-    }
+      };
+    };
 
     plugin.effect.roll = function() {
       param.effect = {
@@ -126,9 +126,9 @@
         'end' : {
           'css' : {zIndex:'98'}
         }
-      }
-    }
-  
+      };
+    };
+
 
     plugin.effect.slide = function() {
       param.effect = {
@@ -146,11 +146,11 @@
         'end' : {
           'css' : {zIndex:'98'}
         }
-      }
-    }
+      };
+    };
 
     plugin.init();
-  }
+  };
 
   $.fn.simpleTicker = function(options) {
     return this.each(function() {
@@ -159,6 +159,6 @@
         $(this).data('simpleTicker', plugin);
       }
     });
-  }
+  };
 })(jQuery);
 
