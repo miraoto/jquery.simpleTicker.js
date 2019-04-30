@@ -1,10 +1,10 @@
-jquery.simpleTicker.js
-=================================================
-Simple ticker plugin using jQuery
-=================================================
+# jquery.simpleTicker.js
 
-How to use
----------------------------------------------------------------------
+Simple ticker plugin using jQuery.
+
+
+## Usage
+
 1.Described jquery.simapleTicker.css and jquery.simpleTicker.css as follows :
 
 ``` html
@@ -36,15 +36,26 @@ $(function(){
 </script>
 ```
 
+Please check the demo/demo.html for details.
+
+## jQuery Support
+
+It has been tested on the following versions
+
+- 1.8.3
+- 2.2.4
+- 3.4.0
+
 
 Related information
 ----------------------------------------------------------------------
 - [簡単なjquery tickerプラグインを作ってみた。 - ミラボ](http://log.miraoto.com/2012/12/708/)
 - [jQueryを利用した簡単なニュースティッカー - サンプルとか](http://sample.miraoto.com/detail/20/)
 
+
 License
 ----------------------------------------------------------------------
-Copyright (c) 2012 miraoto
+Copyright (c) 2012-2018 miraoto
 Dual licensed under the [MIT license][MIT] and [GPL license][GPL].
 
 [MIT]: http://www.opensource.org/licenses/mit-license.php
