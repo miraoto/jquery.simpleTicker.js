@@ -55,9 +55,6 @@ Related information
 
 License
 ----------------------------------------------------------------------
-Copyright (c) 2012-2018 miraoto
-Dual licensed under the [MIT license][MIT] and [GPL license][GPL].
-
-[MIT]: http://www.opensource.org/licenses/mit-license.php
-[GPL]: http://www.gnu.org/licenses/gpl.html
+Copyright (c) 2012-2019 miraoto
+The plugin is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
